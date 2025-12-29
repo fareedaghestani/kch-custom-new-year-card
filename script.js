@@ -20,7 +20,7 @@ function drawCard(name = '') {
         ctx.textAlign = 'center';
 
         // ✅ Text ABOVE center
-        const textY = canvas.height / 2 - (canvas.height * 0.1);
+        const textY = canvas.height / 2 - (canvas.height * 0.15);
 
         ctx.fillText(name, canvas.width / 2, textY);
 
